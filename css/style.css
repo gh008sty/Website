@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
+  /* Apply a gradient background to the entire body */
+body {
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
+  color: #fff; /* This will ensure the text is readable on the gradient */
+  background-attachment: fixed; /* Keeps the gradient fixed while scrolling */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Adjust color for specific elements for readability */
+h2, h3, p, .btn, .brand {
+  color: #fff;
+}
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
